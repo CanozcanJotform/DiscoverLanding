@@ -20,6 +20,7 @@ body {
     font-family:  Georama;
     background-color: #F2F0F0;
     border-radius: 10px;
+    margin: 10px 0px 0px 10px;
 
     
 }
@@ -39,14 +40,14 @@ body {
     border-radius: 30px;
     color: #fff;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #7934EA;
 }
 .sign-button {
     background-color: #fff;
     padding: 5px 18px;
     border-radius: 30px;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #3F4FE1;
 }
 .main-section-container {
     max-width: 1440px;
@@ -81,6 +82,8 @@ body {
 }
 .buy-list {
     color: #FDFDFF;
+    padding: 9px;
+    margin-left: 10px;
 }
 .buy-menu {
     display: flex;
@@ -91,7 +94,7 @@ body {
 .buy-button {
     background-color: #fff;
     border: 1px solid black;
-    padding: 5px 25px;
+    padding: 7px 25px;
     border-radius: 5px;
     font-weight: bold;
     color: #000;
@@ -110,6 +113,10 @@ body {
     width: 100%;
     max-width: 1406px;
     margin-left: 18px;
+    margin-top: 36px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    border-radius: 10px;
 }
 .Trulia> h3 {
     text-align: center;
@@ -151,4 +158,38 @@ body {
   color: #fff;
   font-weight: bold;
   border: 1px solid;
+  cursor: pointer;
+}
+.explore-container {
+    width: 100%;
+    max-width: 1406px;
+    background-color: #F2F0F0;
+    margin-top: 40px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.buy-button {
+    cursor: pointer;
+}
+.villa1 {
+    width: 300px;
+    height: 300px;
+}
+.explore-section > h4, p {
+    text-align: center;
+    font-family:  Georama;
+}
+.explore-section > h4 {
+    font-size: 25px;
+}
+.left-header-sections > ul {
+  cursor: pointer;
+}
+.images-section1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
