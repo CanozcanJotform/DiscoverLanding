@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(7926FF, #a43fa6);
+    background: linear-gradient(0.25turn, #3f80a6, #f5e1f8, #483fa6);
+}
+.general-container {
+    max-width: 1440px;
+}
+
+.header, .left-header, .left-header-sections, .signLogin {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.header {
+    justify-content: space-between;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    font-family:  Georama;
+    background-color: #F2F0F0;
+    border-radius: 10px;
+
+    
+}
+.logoPng {
+    margin-left: 17px;
+}
+.left-header {
+    gap: 95px;
+}
+.signLogin {
+    gap: 16px;
+}
+.login-button {
+    margin-right: 42px;
+    background-color: #7934EA;
+    padding: 6px 25px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.sign-button {
+    background-color: #fff;
+    padding: 5px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.main-section-container {
+    max-width: 1440px;
+    font-family: chicle;
+    word-spacing: 2;
+    margin-top: 36px;
+          
+}
+.main-section {
+    background-image: url(images/villa.png);
+    max-width: 1406px;
+    height: 574px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 auto; 
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+.main-section > h2 {
+    text-align: center;
+    line-height: 6.5;
+    color: #fff;
+    width: 578px;
+    margin: 0 auto;
+}
+.main-section > span {
+    font-size: 64px;
+}
+.buy-menu > ul {
+    text-align: center;
+    font-weight: bold;
+}
+.buy-list {
+    color: #FDFDFF;
+}
+.buy-menu {
+    display: flex;
+   justify-content: center;
+   font-family: geoarama;
+   
+}
+.buy-button {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+}
+.washington  {
+    text-align: center;
+    
+}
+.washington > input {
+    padding: 10px 130px;
+    border-radius: 5px;
+    border: 1px solid #fff ;
+}
+.mid-section {
+    background-color: #F2F0F0;
+    width: 100%;
+    max-width: 1406px;
+    margin-left: 18px;
+}
+.Trulia> h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family:  Georama;
+    word-spacing: 1.5px;
+    padding-top: 30px;
+}
+.home-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.buyHome, .rentHome, .See {
+    width: 240px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 30px;
+}
+.villa, .neighbor {
+  width: 90px;
+  height: 90px;
+}
+.house {
+  width: 90px;
+  height: 90px;
+}
+.buyh4, .renth4, .seeh4{
+  font-size: 20px;
+  font-weight: 300;
+}
+.buy-p, .rent-p, .see-p {
+  color: rgb(100, 100, 100);
+  font-weight: 300;
+}
+.button-trulia {
+  padding: 8px 35px;
+  border-radius: 5px;
+  background-color: rgb(95, 160, 125);
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid;
+}
